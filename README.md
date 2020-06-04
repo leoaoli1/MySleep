@@ -6,7 +6,7 @@
 
 
 
-### Set Up Steps###
+### Set Up Steps ###
 
 * Import the zfactor.sql to your database
 * Revise the ConnectDb_Template.php file 
