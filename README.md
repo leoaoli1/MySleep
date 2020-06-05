@@ -19,6 +19,9 @@
 * Siteng Chen <sitengchen@email.arizona.edu>
 * Wo-Tak Wu <wotakwu@email.arizona.edu>
 
+### Contact Information ###
+* For more detail, please contact Dr. Michelle M Perfect <mperfect@arizona.edu>
+
 ### Copyright ###
 
 (C) 2017 University of Arizona STEPS Team.  All Rights Reserved.
