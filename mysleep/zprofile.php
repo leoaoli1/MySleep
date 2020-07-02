@@ -4,8 +4,6 @@
 # Part of the MySleep package
 #
 # (C) 2016 University of Arizona, College of Education, STEPS Team
-#
-# Author:   Siteng Chen <sitengchen@email.arizona.edu>
 
 require 'utilities.php';
 checkAuth();
@@ -24,7 +22,6 @@ $query = $_SERVER['QUERY_STRING'];
 unset($_SESSION['current_config']);
 $_SESSION['current_config'] = $config;
 /* ***Flexible Framework Request end*** */
-
 
 ?>
 
