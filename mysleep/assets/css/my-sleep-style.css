@@ -1,0 +1,333 @@
+#sleep_letter {
+    color: orchid;
+    font-family: 'MV Boli';
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+}
+
+.basketball_container {
+    max-width: 150px;
+    max-height: 150px; 
+    width:auto;
+    height:auto;
+    position: absolute;
+    z-index: 1;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* Basically the screen is divided into two main columns. On the left is the function menu. */
+.function_menu {    /* Navigation buttons on the left */
+    width: 50%;
+    float: left;
+    margin: 10px;
+    /* outline-style: solid; outline-color: red; outline-width: 1px; */
+}
+
+.avatar_image {
+    width: 50%;         /* Menu and image, each of 50% */
+    margin-top: 10px;
+    max-width: 300px;
+    max-height: 300px; 
+    width:auto;
+    height:auto;
+    /* outline-style: solid; outline-color: red; outline-width: 1px; */
+}
+
+html {
+    /* font-family: "Lucida Sans", sans-serif; */
+}
+.header {
+    text-align:center;
+    font-weight: bold;
+    font-size:300%;
+    margin: 0px;
+    margin-bottom: 10px;
+    /* outline-style: solid; outline-color: red; outline-width: 1px; */
+}
+.header_link {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    /* outline-style: solid; outline-color: red; outline-width: 1px; */
+}
+
+.button_all {
+    width: 100%;
+    height: auto;
+    color: darkblue;
+    /*background-color: gold; */
+    background-color: MistyRose;
+    margin: 0px; 
+    margin-bottom: 15px;
+    padding: 5px; 
+    border-radius: 15px;
+    font-size: 150%;
+    font-family: serif;
+    font-weight: bold;
+    text-align:center;
+    /* outline-style: solid; outline-color: red; outline-width: 1px; */
+}
+.button_prompt {
+	 background-color: #999999;
+    color: #FFFFFF;
+	 border: none;
+    border-radius: 3px;
+    will-change: box-shadow, transform;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+	 box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+	 /*background-color: MistyRose;
+    border-radius: 15px;
+    color: darkblue;*/
+    float: left;
+    font-family: serif;
+    font-size: 150%;
+    /*font-weight: bold;*/
+    height: auto;
+    margin: 0px; 
+    margin-bottom: 15px;
+    padding: 5px; 
+    padding-right: 5px; 
+    text-align:center;
+    width: 50%;
+}
+
+.button_all:hover, .button_prompt:hover {
+    /*background-color: lightgrey;*/
+    background-color: #999999;
+    color: #FFFFFF;
+}
+
+.user_info {
+    color: red;
+    font-size: 150%;
+    font-weight: bold;
+    /* outline-style: solid; outline-color: red; outline-width: 1px; */
+}
+
+.submit_all {
+    color: darkblue;
+    background-color: lightyellow;
+    margin: 0px; 
+    border-radius: 15px;
+    font-size: 150%;
+    font-family: serif;
+    font-weight: bold;
+    text-align:center;
+    /* outline-style: solid; outline-color: red; outline-width: 1px; */
+}
+.submit_all:hover {
+    background-color: lightgrey;
+}
+
+/* Prompts and entries are basically occupy two column of the screen, each having 50% */
+.prompt_entry {
+    width: 100%;
+    margin-bottom: 15px;
+    color: darkblue;
+    /*float: left;*/
+    /*outline-style: solid; outline-color: blue; outline-width: 3px; */
+}
+.prompt_entry:after {
+    content: ""; 
+    clear: both;
+    display: block;
+}
+.prompt {
+    width: 50%; 
+    float: left;
+    font-size: 150%;
+    font-family: serif;
+    text-align: right;
+    padding-right: 5px; 
+    /*outline-style: solid; outline-color: red; outline-width: 1px;*/
+}
+.entry {
+    width: 50%;
+    font-size: 150%;
+    float: left;
+    color: red;
+    /*outline-style: solid; outline-color: red; outline-width: 1px;*/
+}
+.very_short_entry {
+    width: 10%;
+    font-size: 150%;
+    float: left;
+    /*outline-style: solid; outline-color: red; outline-width: 1px;*/
+}
+.entry_element {
+    float: left;
+    margin: 3px;
+}
+label {
+    display: inline-block;
+}
+
+/* A short instruction for the entire page */
+#guide {
+    font-size:150%;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.prompt_section {
+    color: green;
+    font-weight: bold;
+    width: 100%;
+    font-size: 200%;
+    font-family: serif;
+    text-align: left;
+    margin-left: 0%;
+}
+
+.row_settings {
+    width: 100%;
+    color: darkblue;
+    font-size: 150%;
+    font-family: serif;
+    text-align:center;
+    margin-bottom: 10px;
+    /*outline-style: solid; outline-color: green; outline-width: 1px; */
+}
+
+.normal_text {
+    width: 75%;
+    color: dark;
+    font-size: 150%;
+    font-family: serif;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    /*outline-style: solid; outline-color: green; outline-width: 1px; */
+}
+
+.file_input {
+    font-family: serif;
+    font-size: 100%;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+/* Table style for (default) medium-size screen (tablets, for example) */
+/* Table is assumed to be small and centered on the screen */
+.normal_table {
+    margin-left: 12%;
+    width: 75%;
+}
+/* Entry box within a table */
+.normal_table_entry {
+    font-size: 100%;
+    text-align: center;
+}
+
+/* For playing video clips */
+.normal_video_window {
+    width: 640px;
+    height: 480px;
+}
+
+#lessoncontent {
+    text-justify:inter-ideograph;
+}
+
+select {
+    font-size: inherit;
+    /*font-size: 150%;*/
+}
+
+input {
+    /*font-size: inherit;*/
+}
+
+/* Tailor for different screen sizes */
+/* For mobile phone with narrow width, especially in portrait mode */
+@media only screen and (max-width: 480px) {
+    .function_menu {
+        width: 100%;
+        margin: 0px;
+    }
+    .avatar_image {
+        /* width: 100%; */
+    }
+    .prompt, .prompt_section {
+        width: 100%;
+        text-align: left;
+    }
+    .entry {
+        width: 100%;
+    }
+    .normal_table, .button_prompt {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .normal_text {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .normal_video_window {
+        width: 320px;
+        height: 240px;
+    }
+    .very_short_entry {
+        width: 50%;
+    }
+}
+
+/* For wide screens */
+@media screen and (min-width: 1300px) {
+    .button_all {
+        width: 50%;
+        margin-left: 50%;
+    }
+    .function_menu {
+    }
+    .header {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .prompt, .button_prompt, .prompt_section  {
+        width: 25%;
+        margin-left: 25%;
+    }
+    .entry {
+        width: 25%;
+        margin-right: 25%;
+    }
+    .normal_table {
+        margin-left: 27%;
+        width: 45%;
+    }
+    .normal_text {
+    }
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+th {
+    background-color: lightskyblue;
+}

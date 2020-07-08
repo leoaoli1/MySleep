@@ -1,0 +1,107 @@
+.lesson {
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 1.5em;
+    cursor: pointer;
+}
+
+.lesson > p, .lesson > span > .lesson-text {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.lesson > .lesson-text {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+}
+
+.lesson:hover{
+    background: $gray-lighter;
+}
+
+.lesson-primary {
+    border-color: $brand-primary;
+    color: $brand-primary;
+}
+
+.lesson-primary:hover {
+    background: lighten($brand-primary, 55%);
+}
+
+.lesson-success {
+    border-color: $brand-success;
+    color: $brand-success;
+}
+
+.lesson-success:hover{
+    background: lighten($brand-success, 40%);
+}
+
+.lesson-danger {
+    border-color: $brand-danger;
+    color: $brand-danger;
+}
+
+.lesson-danger:hover {
+    background: lighten($brand-danger, 40%);
+}
+
+.lesson-warning {
+    border-color: $brand-warning;
+    color: $brand-warning;
+}
+
+.lesson-warning:hover {
+    background: lighten($brand-warning, 40%);
+}
+
+.lesson-info {
+    border-color: $brand-info;
+    color: $brand-info;
+}
+
+.lesson-info:hover {
+    background: lighten($brand-info, 40%);
+}
+
+.lesson-rose {
+    border-color: $brand-rose;
+    color: $brand-rose;
+}
+
+.lesson-rose:hover {
+    background: lighten($brand-rose, 40%);
+}
+
+.lesson > span > .lesson-text {
+    
+}
+.lesson > span > i {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: .25em;
+}
+
+@media (max-width: 768px){
+    .lesson{
+        width: 100%;
+    }
+    .lesson > p, .lesson > .lesson-text > p {
+       font-size: 1.5em; 
+    }
+}
+
