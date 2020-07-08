@@ -5,7 +5,7 @@
 #
 # University of Arizona Own the Copyright
 #
-# Author: Siteng Chen <sitengchen@email.arizona.edu>
+# Author: Siteng Chen
 #
 require_once('utilities.php');
 session_start();

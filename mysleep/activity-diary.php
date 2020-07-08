@@ -5,7 +5,7 @@
 #
 # University of Arizona Own the Copyright
 #
-# Author: Ao Li <aoli1@email.arizona.edu>, Wo-Tak Wu <wotakwu@email.arizona.edu>
+# Author: Ao Li, Wo-Tak Wu
 #
 require_once('utilities.php');
 session_start();
